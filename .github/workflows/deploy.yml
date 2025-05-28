@@ -22,7 +22,7 @@ on:
           type: string
         tenantIssuerUri:
           description: 'Issuer URI of your SAP Cloud Identity Services tenant'
-          default: 'terraformeds.accounts.ondemand.com'
+          default: 'https://terraformeds.accounts.ondemand.com'
           required: true
   
 jobs:
